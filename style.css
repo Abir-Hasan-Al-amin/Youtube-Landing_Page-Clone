@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.main-content{
+    margin-top: 150px;
+    margin-left: 130px ;
+}
+.youtube-videos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+.preview{
+    position: relative;
+}
+.y-time{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    padding: 4px;
+    border-radius: 4PX;
+}
+.preview img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.info{
+    margin-top: 10px;
+    display: flex;
+}
+
+.info img{
+    width: 45px;
+    height: 45px;
+    border-radius: 22.5px;
+}
+.pro-info{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.v-name{
+    color: black;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.c-name,
+.views{
+    font-size: 16px;
+}
+.dotdot{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ /* shorts */
+ .youtube-shorts{
+    padding-bottom: 80px;
+    border-top: 4px solid #D9D9D9;
+    border-bottom: 4px solid #D9D9D9;
+    margin-top: 40px;
+    margin-bottom: 40px;
+ }
+ .s-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    column-gap: 16px;
+    row-gap: 40px;
+ }
+ .s-img img{
+    width: 100%;
+    border-radius: 20px;
+ }
+ .s-p{
+    color: black;
+    font-size: 18px;
+ }
+ .s-info{
+    padding: 10px;
+ }
+ .s-logo{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    column-gap: 10px;
+ }
+ .s-logo p{
+    font-size: 25px;
+    color: black;
+ }

@@ -1,0 +1,30 @@
+.sub-nav{
+padding-left: 18px;
+ position: fixed;
+ top: 60px;
+ right: 0;
+ left: 92px;
+ height: 60px;
+ display: flex;
+ align-items: center;
+ background-color: white;
+ z-index: 10;
+}
+.sub-nav p{
+    color: black;
+    margin: 4px 20px;
+    font-size: 16px;
+    white-space: nowrap;
+}
+.nav-d{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 20px;
+    transition: 0.15s;
+    cursor: pointer;
+}
+.nav-d:hover{
+background-color: #E5E5E5;
+}
