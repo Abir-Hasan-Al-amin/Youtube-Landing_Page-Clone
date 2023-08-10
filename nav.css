@@ -82,6 +82,9 @@ background-color: #D9D9D9;
 .user:hover{
     background-color: #DEF1FF;
 }
+@media (width<=1000px){
+
+}
 .dots img{
     width: 30px;
     cursor: pointer;
